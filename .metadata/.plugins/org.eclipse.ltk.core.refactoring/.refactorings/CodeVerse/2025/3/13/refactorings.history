@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CodeVerse/src/main/java/com/code/verse/entity/message.java&apos; to &apos;Message.java&apos;" description="Rename resource &apos;message.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/code/verse/entity/message.java" name="Message.java" stamp="1742864754027" updateReferences="true"/>
+</session>

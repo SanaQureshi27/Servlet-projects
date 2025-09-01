@@ -1,0 +1,27 @@
+<%@page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@page errorPage="ErrorPage.jsp" %>
+<%@page import="com.code.verse.entity.User"%>
+
+<%
+User user = (User) session.getAttribute("currentUser");
+if (user == null) {
+    response.sendRedirect("login_page.jsp");
+    out.println("null");
+    return; // Prevent further execution
+}
+%>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>User Profile</title>
+</head>
+<body>
+    <h2>User Details</h2>
+    <p>Name: <%= user.getName() %></p>
+    <p>Email: <%= user.getEmail() %></p>
+    <p>About: <%= user.getAbout() %></p>
+</body>
+</html>

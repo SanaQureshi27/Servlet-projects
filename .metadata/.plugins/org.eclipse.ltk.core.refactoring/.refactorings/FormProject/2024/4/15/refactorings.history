@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FormProject/src/main/java/formClasses&apos; to &apos;formclasses&apos;" description="Rename resource &apos;formClasses&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/formClasses" name="formclasses" stamp="1712523467699" updateReferences="true"/>
+</session>

@@ -1,0 +1,6 @@
+
+
+.primary_background {
+  background-color: #00695f; /* Custom dark greenish-teal */
+  color: white; /* Ensures text is readable */
+}
